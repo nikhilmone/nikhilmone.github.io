@@ -11,3 +11,7 @@
 # Ansible
 
 # Terraform
+
+# DevOps
+
+[How to setup GitLab on RHEL/CentOS7/OEL7]()

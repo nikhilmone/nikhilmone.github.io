@@ -14,4 +14,4 @@
 
 # DevOps
 
-[How to setup GitLab on RHEL/CentOS7/OEL7]()
+[How to setup GitLab on RHEL/CentOS7/OEL7](https://github.com/nikhilmone/nikhilmone.github.io/blob/master/install-gitlab.md)

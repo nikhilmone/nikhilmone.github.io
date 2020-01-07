@@ -1,8 +1,10 @@
-# How to install Gitlab-CE on RHEL/ CentOS7/ OEL7
+# How to install Gitlab-CE on RHEL/ CentOS/ OEL
 
 1. Install and configure the necessary dependencies
 
-On CentOS 7 (and RedHat/Oracle/Scientific Linux 7), the commands below will also open HTTP, HTTPS and SSH access in the system firewall.
+[Install the `epel-release` package for addition packages.](https://www.tecmint.com/install-epel-repo-on-rhel-8/)
+
+On CentOS 8 (and RedHat/Oracle/Scientific Linux 8), the commands below will also open HTTP, HTTPS and SSH access in the system firewall.
 
 ```
 sudo yum install -y curl policycoreutils-python openssh-server

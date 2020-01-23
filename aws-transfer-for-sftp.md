@@ -1,6 +1,6 @@
-# To use AWS SFTP, you take the following high-level steps:
+# To use AWS SFTP server, follow below high-level steps:
 
-- Create an Amazon S3 bucket, as described in Amazon S3 Bucket Requirements.
+- Create an Amazon S3 bucket.
 
 - Create an IAM role that contains two IAM policies:
 
@@ -66,13 +66,15 @@ You can route SFTP traffic to your SFTP server endpoint from a domain, such as e
 
 - Open an SFTP client and configure the connection to use the SFTP endpoint host name for the SFTP server that you want to use. You can get this host name from the AWS SFTP Management Console.
 
+- In User Configuration, select the role that you have created, Home directory as the S3 bucket and one of the folder as a root folder for FTP user. You can also restrict the folder, so that user can not access anything outside it, (to use the same bucket for other users).
+
+You would alos need to upload the public key for the user.
+
 - Create the user keys:
 
 ```
 ssh-keygen -t rsa
 ```
-
-- In User Configuration, select the role that you have created, Home directory as the S3 bucket and one of the folder as a root folder for FTP user. You can also restrict the folder, so that user can not access anything outside it, to use the same bucket for other users.
 
 - Connect to the sftp server using command line, WinScp or FileZilla.
 

@@ -2,7 +2,7 @@
 
 # AWS
 
-[How to configure AWS Transfer for SFTP Works](https://nikhilmone.github.io/aws-transfer-for-sftp-works.md)
+[How to configure AWS Transfer for SFTP Works](https://github.com/nikhilmone/nikhilmone.github.io/blob/master/aws-transfer-for-sftp-works.md)
 
 # Nginx
 
